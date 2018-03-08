@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Hind|Lobster|Merriweather:300,400,700|Quicksand:400,700|Titillium+Web:300i,400,600i');
+  	body{
+  	font-family: 'Lobster', cursive;
+  	font-size: 14pt;
+  	}
+  	.boner{
+  	height: 600px;
+  	background: linear-gradient(to bottom,
+    rgb(0,0,0,0),
+    rgba(0,0,0,.8)),
+    url('../images/books_1200.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  	}
+  	
+  	.logonator{
+  	float:left;
+  	margin-left: 2%;
+  	margin-top: 5%;
+  	padding-left: 20px;
+  	
+  	}
+  	
+  	.blurb {
+  	font-family: 'Quicksand', sans-serif;
+  	color: #FFD633;/*#CCA300*/  /*#FFD633*/  /*#003399*/
+  	float:left;
+  	position: absolute;
+  	left: 20px;
+  	margin-top: 25%;
+  	padding-top: 10px;
+  	padding-left: 30px;
+  	
+  	}
+  	.muffinbottom {
+  	padding-bottom: 10px; 
+  	
+  	}
+  	
+  	.stoner{
+  	height: 600px;
+  	background: linear-gradient(to bottom,
+    rgb(0,0,0,0),
+    rgba(0,0,0,.8)),
+    url('../images/baseball_1200.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  	}
+  	
+  	.flurb {
+  	font-family: 'Quicksand', sans-serif;
+  	color: #FFD633;/*#CCA300*/  /*#FFD633*/  /*#003399*/
+  	float:right;
+  	position: absolute;
+  	right: 3px;
+  	margin-top: 25%;
+  	padding: 55px;
+  	
+  	}
+  	
+  	.loner{
+  	height: 600px;
+  	background: linear-gradient(to bottom,
+    rgb(0,0,0,0),
+    rgba(0,0,0,.8)),
+    url('../images/bench.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  	}
+  	
+  	.moner{
+  	height: 600px;
+  	background: linear-gradient(to bottom,
+    rgb(0,0,0,0),
+    rgba(0,0,0,.8)),
+    url('../images/type.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  	}
+  	
+  	.jumbotron {
+  		font-family: 'Merriweather', serif;
+  		font-size: 40px;
+	  	color: #000000;
+  	
+  	}
+  
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #FFD633;
+      padding: 25px;
+    }
+   /* 
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Hind', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Titillium Web', sans-serif;
+
+    font-family: 'Merriweather', serif;
+    */
+
+    
+    
+    
+    #myNavbar a:link {
+    color: #FFD633;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+	#myNavbar a:visited {
+    color: #003399;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+	#myNavbar a:hover {
+    color: #CCA300;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+    .navbar a:link {
+    color: #FFD633;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+	.navbar a:visited {
+    color: #003399;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+	.navbar a:hover {
+    color: #CCA300;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.logomini{
+	width:52px;
+	height:52px;
+  	margin: 2px;
+  	padding: 5px;
+  	}
+.serious_circles {
+	width:325px;
+	height:235px;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="#"><img class="logomini" src="../images/BLogo.png" alt="bootstrapper_logo_mini"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Data</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Github</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- BOOKS FEATURE -->
+<div class= "boner"> 
+<a href="http://www.mensahdesigns.com">
+  <img class="logonator" src="../images/BLogo.png" alt="bootstrapper_logo" style="width:242px;height:242px;border:0;">
+
+</a>
+<span class="blurb">
+<h1>Hello, Buttered toast.</h1>
+<p class="muffinbottom">Oh, snap.And then the moon came from behind the clouds.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+</p>
+<button class="btn btn-primary"> Shiiiii..</button>
+</span>
+</div>
+
+<!-- JUMBOTRON -->
+<div class="jumbotron">
+  <div class="container text-center">
+  
+    <h1>Learning Angular:<br>The RoundAbout</h1>      
+    <p>Let this be an example for you.</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<!-- BASEBALL KID -->
+<div class= "stoner"> 
+<span class="flurb">
+<h1>Hello, Buttered toast.</h1>
+<p class="sconebottom">Oh, snap.And then the moon came from behind the clouds.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+</p>
+<button class="btn btn-primary"> SMooo..</button>
+</span>
+</div>
+
+<!-- IMG GRID -->
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+
+<!-- THREE BONES -->
+<div class="container text-center">    
+  <h3>What We Do</h3><br>
+  <div class="row">
+    <div class="col-sm-4"> 
+      <img class="serious_circles" src="http://www.mensahdesigns.com/images/logoTeeth.png" class="img-circle" alt="Image">
+      <p>Project A</p>    
+    </div>
+    <div class="col-sm-4"> 
+      <img class="serious_circles" src="http://www.mensahdesigns.com/images/logoTeeth_grapes.png" class="img-circle" alt="Image">
+      <p>Project B</p>    
+    </div>
+    <div class="col-sm-4"> 
+      <img class="serious_circles" src="http://www.mensahdesigns.com/images/logoTeeth.png" class="img-circle" alt="Image">
+      <p>Project C</p>    
+    </div>
+  </div>
+</div><br><br>
+
+<!-- BENCH FEATURE -->
+<div class= "loner"> 
+<span class="blurb">
+<h1>Hello, Buttered toast.</h1>
+<p class="muffinbottom">Oh, snap.And then the moon came from behind the clouds.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+</p>
+<button class="btn btn-primary"> Shiiiii..</button>
+</span>
+</div><br><br>
+
+<!-- JUMBOTRON TWO -->
+<div class="jumbotron">
+  <div class="container text-center">
+  
+    <h1>The Best Part About Components</h1>      
+    <p>If you're a tree-shakin' fool, you're gonna like this.</p>
+  </div>
+</div>
+
+<!-- TYPE FEATURE -->
+<div class= "moner"> 
+<span class="blurb">
+<h1>Hello, Buttered toast.</h1>
+<p class="muffinbottom">Oh, snap.And then the moon came from behind the clouds.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+<br>To my surprise, the ambient light was magnificient.
+</p>
+<button class="btn btn-primary"> Shiiiii..</button>
+</span>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
